@@ -1,0 +1,56 @@
+/*aula 04 */
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina|Great+Vibes');
+
+body{
+	background: url(../img/back.jpg) center center fixed;
+	background-size: cover;
+}
+li{
+	font-family: 'Baloo Bhaina', cursive;
+}
+em{
+	font-family: 'Great Vibes', cursive;
+}
+
+.ordenada{
+	width: 800px;
+	height: 400px;
+	background-color: rgba(255, 255, 255, 0.5);
+	/*fazendo 2 colunas e linha*/
+	-webkit-column-count:2; 
+	-webkit-column-rule-style: dashed;
+	box-shadow: 15px 15px 45px 4px #000;
+	margin-bottom: 20px;
+	/*para centralizar*/
+	position: relative;
+	left:30%;
+}
+.desordenada{
+	width: 800px;
+	height: 300px;
+	background-color: rgba(255, 255, 255, 0.5);
+	-webkit-column-count:2; 
+	-webkit-column-rule-style: dashed;
+	box-shadow: 15px 15px 45px 4px #000;
+	/*para centralizar*/
+	position: relative;
+	left:30%;
+}
+
+/*BANNER COM ROLAGEM*/
+header{
+	width: 100%;
+	height: 800px;
+}
+p{
+	font-family: 'Great Vibes', cursive;
+	font-size: 200px;
+	text-align: center;
+	color:#fff;
+}
+/*FINALIZA BANNER*/
+footer{
+	width: 100%;
+	height: 400px;
+
+}
